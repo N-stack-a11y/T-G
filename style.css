@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #dce35b, #45b649);
+  padding: 20px;
+  margin: 0;
+}
+
+.inputs {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 420px;
+  margin: 60px auto;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.inputs:hover {
+  transform: scale(1.01);
+}
+
+.inputs label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.inputs input {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0 18px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.inputs input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+}
+
+.inputs button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3);
+  transition: background 0.3s, transform 0.2s;
+}
+
+.inputs button:hover {
+  background: linear-gradient(to right, #0056b3, #00aaff);
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 480px) {
+  .inputs {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+
+  .inputs input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .inputs button {
+    font-size: 16px;
+    padding: 12px;
+  }
+}

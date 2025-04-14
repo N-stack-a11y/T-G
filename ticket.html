@@ -1,0 +1,47 @@
+<!-- ticket.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generated Ticket</title>
+  <link rel="stylesheet" href="ticket-style.css">
+</head>
+
+<body>
+  <div class="ticket">
+    <img class="logo" src="Logo.jpg" alt="Sitilink Logo" />
+    <div class="container">
+      <h2>TRAVEL TICKET</h2>
+      <div class="info">
+        <p><span>T.No:</span> <span id="ticketNo"></span></p>
+        <p>Date: <strong id="ticketDate"></strong></p>
+
+        <p class="section-title">FROM:</p>
+        <p><span class="bold" id="fromEnglish"></span></p>
+        <p class="gujarati" id="fromPlace"></p>
+
+        <p class="section-title">TO:</p>
+        <p><span class="bold" id="toEnglish"></span></p>
+        <p class="gujarati" id="toPlace"></p>
+
+        <p>Total Fare: <strong id="ticketFare"></strong></p>
+        <p style="font-size: 12px;">Entry valid within: <span id="entryTime"></span></p>
+        <p style="font-size: 11px;">Ticket valid upto: <span id="ticketExpiry"></span></p>
+      </div>
+
+      <div class="qr">
+        <img id="qrCode" src="" alt="QR Code" />
+      </div>
+
+      <div class="footer">
+        <p>This Ticket Is Not Refundable</p>
+        <p>Customer Care No: 18002330233</p>
+      </div>
+    </div>
+  </div>
+  <script src="ticket-script.js"></script>
+</body>
+
+</html>
