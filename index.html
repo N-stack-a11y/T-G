@@ -5,6 +5,58 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ticket Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="inputs">
+    <h2>Buy New Ticket</h2>
+    <label for="tno">T.No:</label><br />
+    <input type="text" id="tno" maxlength="17" placeholder="Enter 17 digit T.No"><br />
+
+    <label for="date">Date & Time:</label><br />
+    <input type="datetime-local" id="datetime"><br />
+
+    <label for="from">From:</label><br />
+    <input list="stationList" id="from" placeholder="Enter From"><br />
+
+    <label for="to">To:</label><br />
+    <input list="stationList" id="to" placeholder="Enter To"><br />
+
+    <label for="fare">Total Fare (Rs):</label><br />
+    <input type="number" id="fare" placeholder="Enter Fare"><br />
+
+    <button onclick="submitForm()">Buy Ticket</button>
+  </div>
+
+  <datalist id="stationList">
+    <option value="UDHNA DARWAJA BRTS">
+    <option value="SAHARA DARWAJA BRTS">
+    <option value="MAJURA GATE BRTS">
+    <option value="CITYLIGHT BRTS">
+    <option value="ADAJAN GAM BRTS">
+    <option value="PAL RTO BRTS">
+    <option value="VESU BRTS">
+    <option value="VARACHHA TERMINAL BRTS">
+    <option value="KATARGAM DARWAJA BRTS">
+    <option value="PANDESARA GIDC BRTS">
+    <option value="SARTHANA JAKATNAKA BRTS">
+    <option value="JAHANGIRPURA BRTS">
+    <option value="ICHCHHAPOR BRTS">
+  </datalist>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!-- index.html 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Surat BRTS Ticket Form</title>
   <link rel="stylesheet" href="style.css">
 </head>
