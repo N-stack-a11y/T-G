@@ -11,7 +11,15 @@ const stationNames = {
   "PANDESARA GIDC BRTS": "પાંડેસરા જીઆઇડીસી",
   "SARTHANA JAKATNAKA BRTS": "સાર્થના જકાતનાકા",
   "JAHANGIRPURA BRTS": "જહાંગીરપુરા",
-  "ICHCHHAPOR BRTS": "ઇચ્છાપોર"
+  "ICHCHHAPOR BRTS": "ઇચ્છાપોર",
+  "Railway Station Terminal": "રેલ્વે સ્ટેશન ટર્મિનલ",
+  "Kharwarnagar Brts": "ખારવારનગર Brts",
+  "Shyam Mandir Brts": "શ્યામ મંદિર Brts",
+  "Someshwar Junction Brts": "સોમેશ્વર જંકશન Brts",
+  "Anuvrat Dwar Junction (East) Brts": "અનુવ્રત દ્વાર જંકશન (પૂર્વ) Brts",
+  "Anuvrat Dwar Junction (West) Brts": "અનુવ્રત દ્વાર જંકશન (વેસ્ટ) Brts",
+  "Chikuwadi Brts": "ચીકુવાડી Brts"
+
 };
 
 // Utility function for formatting
